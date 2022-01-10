@@ -1,0 +1,61 @@
+* {
+  box-sizing: border-box;
+}
+
+.header{
+  width:100%; background-color:#00fa9a; height:25vh; border:1px solid #32cd32;
+}
+
+.body{
+  width:100%; display:flex; flex-direction:row;
+}
+.part1{
+  float: left; width:30%;  background-color:#98fb98; border:1px solid#32cd32;  text-align:center; margin: 0;
+  }
+.part2{
+ float: left; width:70%; background-color:#98fb98; border:1px solid#32cd32;
+}
+
+@media only screen and (max-width: 800px) {
+  /* For mobile phones: */
+  .part1, .part2{
+  width: 100%;
+  }
+}
+
+.body2{
+width:100%; background-color:#00fa9a; height:50vh; border:1px solid#32cd32;text-align: center;
+}
+.footer{
+  width:100%; background-color:#98fb98; height:25vh; border:1px solid#32cd32;
+}
+img{
+  width:200px; height:200px; border-radius: 50%;
+  margin-top: 50px;
+}
+.myprojectlink{
+  width:300px;
+  height:150px;
+  border-radius: 20%;
+  margin-top: 20px;
+}
+.intro{
+  font-family: calibri;
+  font-style: italic;
+  font-size: 24;
+  text-align: center;
+  color: white;
+}
+.greeting{
+  font-family: calibri;
+  font-style: italic;
+  font-size: 20;
+  text-align: center;
+    color: white;
+}
+.social-icons{
+  font-size:40px;color:white;margin:20px;
+}
+.fa{
+  margin:20px;
+}
